@@ -1,0 +1,136 @@
+name: demetrius.ebert
+description: responsive
+version: 0.0.1
+author: hvsj1tgj.s70emrya@of4bdu9d.com
+language: scala
+buildSystem: ''
+buildSystemDetails:
+  artefactID: demetriusebert
+  parentArtefactID: ''
+  buildSystem: maven
+  author: null
+  createdAt: '2024-12-20 20:25:09'
+pipelines:
+  pipelines/P1:
+    name: P1
+    description: null
+    author: hvsj1tgj.s70emrya@of4bdu9d.com
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2024-12-20 20:25:09'
+    datasets:
+      inputs:
+      - 130/datasets/D1
+      - 130/datasets/D2
+      outputs:
+      - 130/datasets/D3
+      - 130/datasets/D6
+    subgraphs: []
+    dependencies: {}
+  pipelines/P2:
+    name: P2
+    description: null
+    author: hvsj1tgj.s70emrya@of4bdu9d.com
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2024-12-20 20:25:09'
+    datasets:
+      inputs: []
+      outputs:
+      - 130/datasets/D4
+    subgraphs: []
+    dependencies: {}
+  pipelines/P3:
+    name: P3
+    description: null
+    author: hvsj1tgj.s70emrya@of4bdu9d.com
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2024-12-20 20:25:09'
+    datasets:
+      inputs: []
+      outputs:
+      - 130/datasets/D5
+    subgraphs: []
+    dependencies: {}
+datasets:
+  datasets/D1:
+    name: D1
+    description: ''
+    author: hvsj1tgj.s70emrya@of4bdu9d.com
+    createdAt: '2024-12-20 20:25:09'
+    mode: batch
+    physicalDatasets: {}
+  datasets/D2:
+    name: D2
+    description: ''
+    author: hvsj1tgj.s70emrya@of4bdu9d.com
+    createdAt: '2024-12-20 20:25:09'
+    mode: batch
+    physicalDatasets: {}
+  datasets/D3:
+    name: D3
+    description: ''
+    author: hvsj1tgj.s70emrya@of4bdu9d.com
+    createdAt: '2024-12-20 20:25:09'
+    mode: batch
+    physicalDatasets: {}
+  datasets/D4:
+    name: D4
+    description: ''
+    author: hvsj1tgj.s70emrya@of4bdu9d.com
+    createdAt: '2024-12-20 20:25:09'
+    mode: batch
+    physicalDatasets: {}
+  datasets/D5:
+    name: D5
+    description: ''
+    author: hvsj1tgj.s70emrya@of4bdu9d.com
+    createdAt: '2024-12-20 20:25:09'
+    mode: batch
+    physicalDatasets: {}
+  datasets/D6:
+    name: D6
+    description: ''
+    author: hvsj1tgj.s70emrya@of4bdu9d.com
+    createdAt: '2024-12-20 20:25:09'
+    mode: batch
+    physicalDatasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: 2.12.15
+  gemLibsVersion: 1.1.26
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2024-12-20 20:25:09'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules: {}
+subgraphs: {}
+sqlModels: {}
+sqlSnapshots: {}
+sqlTests: {}
+sqlMacros: {}
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlPipeline: null
+dependencies:
+- modifiedAt: '2024-12-20T20:25:09.009355Z'
+  name: plibMaven
+  version: 8.8.0-SNAPSHOT
+  id: '972984820'
+  createdAt: '2024-12-20T20:25:09.009355Z'
+  type: plibMaven
+projectDependencies: {}
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
